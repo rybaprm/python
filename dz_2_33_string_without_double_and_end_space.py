@@ -1,8 +1,8 @@
 def string_without_double_and_end_space(string):
-	while string.count('  ') !=0:
+	while string.count('  '):
 		string = string.replace('  ', ' ')
 	
-	string=string.strip()
+	string = string.strip()
 	print(string)
 
 string_without_double_and_end_space('   home        work          home        work          home        work          home        work       ')

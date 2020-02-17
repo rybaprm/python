@@ -1,10 +1,10 @@
 def string_sorted_word_alphabetical(string):
-	while string.count('  ') !=0:
+	while string.count('  '):
 		string = string.replace('  ', ' ')
-	list_string=sorted(string.split())
-	string=''
+	list_string = sorted(string.split())
+	string = ''
 	for item in list_string:
-		string+=item + ' '
+		string += item + ' '
 	list_string.clear()
 	print(string)
 	
